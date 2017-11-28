@@ -1,8 +1,8 @@
 node {
-   stage('unit test') {
+   stage('Compile') {
     milestone()
     }
-    stage('proceed') {
+    stage('Test') {
         input "proceed?"
         milestone()
     }
